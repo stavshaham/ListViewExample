@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView = findViewById(R.id.listView);
-        asd.add("asd");
+        asd.add("asds");
         aad = new ArrayAdapter<>(this, R.layout.items, asd);
 
         listView.setAdapter(aad);
